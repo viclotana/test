@@ -1,12 +1,13 @@
 const apiKey ='d2a22f037cba42b6a1ee4e68ab124145';
 const main = document.querySelector('main');
+const sourceSelector = document.querySelector('#sourceSelector')
 window.addEventListener('load', e => {
     updateNews();
     updateSources();
 });
 
 async function updateSources (){
-    
+
 }
 async function updateNews() {
     const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}`);
