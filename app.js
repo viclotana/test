@@ -12,7 +12,7 @@ async function updateNews() {
 
 function createArticle(article){
     return `
-    <div class="card">
+    <div class="container card">
       <a href="${article.url}">
         <h2>${article.title}</h2>
         <img src="${article.urlToImage}">
