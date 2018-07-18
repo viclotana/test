@@ -5,6 +5,9 @@ window.addEventListener('load', e => {
     updateSources();
 });
 
+async function updateSources (){
+    
+}
 async function updateNews() {
     const res = await fetch(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}`);
     const json = await res.json();
