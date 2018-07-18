@@ -2,6 +2,7 @@ const apiKey ='d2a22f037cba42b6a1ee4e68ab124145';
 const main = document.querySelector('main');
 window.addEventListener('load', e => {
     updateNews();
+    updateSources();
 });
 
 async function updateNews() {
